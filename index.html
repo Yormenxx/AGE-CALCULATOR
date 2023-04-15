@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora de edad</title>
+</head>
+<body>
+
+    <h1>Calculadora de Edad</h1>
+
+    <form action="" id="form">
+
+        <label for="day">Day</label>
+        <input type="text" name="day" required placeholder="1-31" id="input-day" autocomplete="off">
+
+        <label for="month">Month</label>
+        <input type="text" name="month" required placeholder="1-12" id="input-month"  autocomplete="off">
+
+        <label for="year">Year</label>
+        <input type="text" name="year"  id="input-year"  autocomplete="off">
+
+
+    </form>
+
+    <div class="container-btn">
+        <button id="btn-calcular">Calcular</button>
+
+    </div>
+
+
+    <div class="container-result">
+
+
+        <div class="item-result">
+
+
+            <div class="year-item">
+                <p>
+
+
+                    <span id="year-result">-- </span>years.
+
+                </p>
+
+            </div>
+
+
+            <div class="month-item">
+
+                <p>
+                    <span id="month-result">-- </span>months.
+                </p>
+
+            </div>
+
+
+            <div class="day-item">
+
+                <p>
+
+                    <span id="day-result">-- </span>days.
+
+
+                </p>
+
+
+
+            </div>
+
+ 
+
+ 
+        </div>
+
+
+    </div>
+
+    <script src="./app.js"></script>
+
+    
+</body>
+</html>
